@@ -371,3 +371,41 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+const courseFilter = document.getElementById("courseFilter");
+const levelFilters = document.querySelectorAll(".levelFilter");
+const cards = document.querySelectorAll(".scholarship-card");
+
+function filterScholarships() {
+
+let selectedCourse = courseFilter.value;
+
+let selectedLevels = [];
+levelFilters.forEach(cb=>{
+if(cb.checked){
+selectedLevels.push(cb.value);
+}
+});
+
+cards.forEach(card=>{
+
+let cardCourse = card.dataset.course;
+let cardLevel = card.dataset.level;
+
+let courseMatch = selectedCourse === "all" || cardCourse === selectedCourse;
+let levelMatch = selectedLevels.includes(cardLevel);
+
+if(courseMatch && levelMatch){
+card.style.display = "block";
+}else{
+card.style.display = "none";
+}
+
+});
+
+}
+
+courseFilter.addEventListener("change",filterScholarships);
+
+levelFilters.forEach(cb=>{
+cb.addEventListener("change",filterScholarships);
+});

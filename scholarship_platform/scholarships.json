@@ -1,26 +1,66 @@
 [
-    {
-        "id": 1,
-        "title": "Pragati Scholarship for Girls 2026",
-        "provider": "AICTE Pragati Scheme",
-        "benefits": "₹50,000/year",
-        "eligibility": "B.Tech / Diploma",
-        "tags": ["B.Tech", "Girls", "National Level"]
-    },
-    {
-        "id": 2,
-        "title": "Vidyadhan Kerala Plus Two Scholarship",
-        "provider": "Vidyadhan Programs",
-        "benefits": "₹10,000/year",
-        "eligibility": "11th & 12th Std",
-        "tags": ["Kerala", "Income < 2Lakhs"]
-    },
-    {
-        "id": 3,
-        "title": "Women in Tech Scholarship (APAC)",
-        "provider": "Google Generation",
-        "benefits": "$2,500 (Approx ₹2L)",
-        "eligibility": "Computer Science (UG/PG)",
-        "tags": ["International", "Computer Science"]
-    }
+{
+"title": "AICTE Pragati Scholarship for Girls",
+"provider": "AICTE",
+"eligibility": "Girls pursuing B.Tech or Diploma in technical institutions",
+"benefits": "₹50,000 per year",
+"apply_url": "https://scholarships.gov.in/"
+},
+
+{
+"title": "Vidyadhan Scholarship",
+"provider": "Sarojini Damodaran Foundation",
+"eligibility": "Students who passed 10th with high marks",
+"benefits": "Financial support for higher education",
+"apply_url": "https://www.vidyadhan.org/"
+},
+
+{
+"title": "L'Oréal India For Young Women in Science",
+"provider": "L'Oréal India",
+"eligibility": "Girls pursuing science degrees",
+"benefits": "Up to ₹2.5 lakh scholarship",
+"apply_url": "https://www.foryoungwomeninscience.com/"
+},
+
+{
+"title": "CBSE Single Girl Child Scholarship",
+"provider": "CBSE",
+"eligibility": "Single girl child studying in CBSE schools",
+"benefits": "Tuition fee support",
+"apply_url": "https://www.cbse.gov.in/"
+},
+
+{
+"title": "Indira Gandhi Single Girl Child Scholarship",
+"provider": "UGC",
+"eligibility": "Only girl child pursuing postgraduate degree",
+"benefits": "₹36,200 per year",
+"apply_url": "https://www.ugc.gov.in/"
+},
+
+{
+"title": "Begum Hazrat Mahal Scholarship",
+"provider": "Ministry of Minority Affairs",
+"eligibility": "Minority girl students",
+"benefits": "₹5000 – ₹6000 financial support",
+"apply_url": "https://scholarships.gov.in/"
+},
+
+{
+"title": "Adobe Women in Technology Scholarship",
+"provider": "Adobe",
+"eligibility": "Women studying Computer Science or related fields",
+"benefits": "Tuition + mentorship",
+"apply_url": "https://research.adobe.com/scholarship/"
+},
+
+{
+"title": "Google Generation Scholarship for Women",
+"provider": "Google",
+"eligibility": "Women studying Computer Science",
+"benefits": "$1000 – $5000 scholarship",
+"apply_url": "https://buildyourfuture.withgoogle.com/scholarships/"
+}
 ]
+
